@@ -1,0 +1,219 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,lot_attribute_set:"
+msgid "Lot Set"
+msgstr "Conjunt d'atributs del lot"
+
+msgctxt "field:stock.lot,attribute_set:"
+msgid "Set"
+msgstr "Grup d'atributs"
+
+msgctxt "field:stock.lot,attributes:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "field:stock.lot.attribute,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:stock.lot.attribute,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:stock.lot.attribute,digits:"
+msgid "Digits"
+msgstr "Dígits"
+
+msgctxt "field:stock.lot.attribute,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:stock.lot.attribute,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.lot.attribute,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.lot.attribute,selection:"
+msgid "Selection"
+msgstr "Selecció"
+
+msgctxt "field:stock.lot.attribute,selection_json:"
+msgid "Selection JSON"
+msgstr "Selecció JSON"
+
+msgctxt "field:stock.lot.attribute,selection_sorted:"
+msgid "Selection Sorted"
+msgstr "Selecció ordenada"
+
+msgctxt "field:stock.lot.attribute,sets:"
+msgid "Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "field:stock.lot.attribute,string:"
+msgid "String"
+msgstr "Etiqueta"
+
+msgctxt "field:stock.lot.attribute,type_:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:stock.lot.attribute,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:stock.lot.attribute,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,attribute_set:"
+msgid "Set"
+msgstr "Grup d'atributs"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:stock.lot.attribute-stock.lot.attribute-set,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:stock.lot.attribute.set,attributes:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "field:stock.lot.attribute.set,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:stock.lot.attribute.set,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:stock.lot.attribute.set,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:stock.lot.attribute.set,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.lot.attribute.set,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.lot.attribute.set,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:stock.lot.attribute.set,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "help:stock.lot.attribute,selection:"
+msgid "A couple of key and label separated by \":\" per line"
+msgstr "Clau i valor separats per \":\" a cada línia."
+
+msgctxt "help:stock.lot.attribute,selection_sorted:"
+msgid "If the selection must be sorted on label"
+msgstr "Si cal ordenar la selecció a l'etiqueta."
+
+msgctxt "model:ir.action,name:act_attribute_form"
+msgid "Lot Attributes"
+msgstr "Attributs del Lot"
+
+msgctxt "model:ir.action,name:act_attribute_set_form"
+msgid "Lot Attribute Sets"
+msgstr "Conjunts d'atributs del lot"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute_set"
+msgid "Attribute Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "model:stock.lot.attribute,name:"
+msgid "Lot Attribute"
+msgstr "Attributs del Lot"
+
+msgctxt "model:stock.lot.attribute-stock.lot.attribute-set,name:"
+msgid "Lot Attribute - Set"
+msgstr "Atribut del Lot - Conjunt d'atributs"
+
+msgctxt "model:stock.lot.attribute.set,name:"
+msgid "Lot Attribute Set"
+msgstr "Conjunt d'atributs del lot"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Boolean"
+msgstr "Booleà"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Char"
+msgstr "Text"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "DateTime"
+msgstr "Data/Hora"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Float"
+msgstr "Número coma flotant"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Integer"
+msgstr "Enter"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Numeric"
+msgstr "Numèric"
+
+msgctxt "selection:stock.lot.attribute,type_:"
+msgid "Selection"
+msgstr "Selecció"
+
+msgctxt "view:stock.lot.attribute.set:"
+msgid "Attribute Set"
+msgstr "Grup d'atributs"
+
+msgctxt "view:stock.lot.attribute.set:"
+msgid "Attribute Sets"
+msgstr "Grups d'atributs"
+
+msgctxt "view:stock.lot.attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "view:stock.lot.attribute:"
+msgid "Attributes"
+msgstr "Atributs"
