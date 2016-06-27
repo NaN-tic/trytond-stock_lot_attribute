@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -144,7 +144,7 @@ msgstr "Si cal ordenar la selecció a l'etiqueta."
 
 msgctxt "model:ir.action,name:act_attribute_form"
 msgid "Lot Attributes"
-msgstr "Attributs del Lot"
+msgstr "Attributs del lot"
 
 msgctxt "model:ir.action,name:act_attribute_set_form"
 msgid "Lot Attribute Sets"
