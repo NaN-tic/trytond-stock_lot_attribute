@@ -4,7 +4,6 @@ from trytond.model import ModelSQL, ModelView, DictSchemaMixin, fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
-__metaclass__ = PoolMeta
 __all__ = ['LotAttributeSet', 'LotAttribute', 'LotAttributeAttributeSet',
     'Template', 'Lot']
 
@@ -36,11 +35,15 @@ class LotAttributeAttributeSet(ModelSQL):
 
 class Template:
     __name__ = 'product.template'
+    __metaclass__ = PoolMeta
+
     lot_attribute_set = fields.Many2One('stock.lot.attribute.set', 'Lot Set')
 
 
 class Lot:
     __name__ = 'stock.lot'
+    __metaclass__ = PoolMeta
+
     attributes = fields.Dict('stock.lot.attribute', 'Attributes',
         domain=[
             ('sets', '=', Eval('attribute_set', -1)),
