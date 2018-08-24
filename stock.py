@@ -33,16 +33,14 @@ class LotAttributeAttributeSet(ModelSQL):
         ondelete='CASCADE', select=True, required=True)
 
 
-class Template:
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
-    __metaclass__ = PoolMeta
 
     lot_attribute_set = fields.Many2One('stock.lot.attribute.set', 'Lot Set')
 
 
-class Lot:
+class Lot(metaclass=PoolMeta):
     __name__ = 'stock.lot'
-    __metaclass__ = PoolMeta
 
     attributes = fields.Dict('stock.lot.attribute', 'Attributes',
         domain=[
