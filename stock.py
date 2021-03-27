@@ -4,9 +4,6 @@ from trytond.model import ModelSQL, ModelView, DictSchemaMixin, fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
-__all__ = ['LotAttributeSet', 'LotAttribute', 'LotAttributeAttributeSet',
-    'Template', 'Lot']
-
 
 class LotAttributeSet(ModelSQL, ModelView):
     "Lot Attribute Set"
