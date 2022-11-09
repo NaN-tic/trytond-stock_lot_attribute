@@ -25,9 +25,9 @@ class LotAttributeAttributeSet(ModelSQL):
     "Lot Attribute - Set"
     __name__ = 'stock.lot.attribute-stock.lot.attribute-set'
     attribute = fields.Many2One('stock.lot.attribute', 'Attribute',
-        ondelete='CASCADE', select=True, required=True)
+        ondelete='CASCADE', required=True)
     attribute_set = fields.Many2One('stock.lot.attribute.set', 'Set',
-        ondelete='CASCADE', select=True, required=True)
+        ondelete='CASCADE', required=True)
 
 
 class Template(metaclass=PoolMeta):
