@@ -36,6 +36,10 @@ class Template(metaclass=PoolMeta):
     lot_attribute_set = fields.Many2One('stock.lot.attribute.set', 'Lot Set')
 
 
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'
+
+
 class Lot(metaclass=PoolMeta):
     __name__ = 'stock.lot'
 
