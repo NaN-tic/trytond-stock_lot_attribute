@@ -9,5 +9,6 @@ def register():
         stock.LotAttribute,
         stock.LotAttributeAttributeSet,
         stock.Template,
+        stock.Product,
         stock.Lot,
         module='stock_lot_attribute', type_='model')
