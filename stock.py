@@ -49,8 +49,7 @@ class Lot(metaclass=PoolMeta):
             ],
         states={
             'readonly': ~Eval('attribute_set')
-            },
-        depends=['attribute_set'])
+            })
     attribute_set = fields.Function(fields.Many2One('stock.lot.attribute.set',
             'Set'), 'on_change_with_attribute_set')
 
